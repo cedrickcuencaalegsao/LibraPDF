@@ -1,0 +1,10 @@
+[package]
+name = "LibraPDF"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["crate/librapdf-core", "crate/librapdf-gui"]
+
+[dependencies]
+librapdf-gui = { path = "crate/librapdf-gui" }
